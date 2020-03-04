@@ -1,5 +1,7 @@
 require "testgem/version"
 
 module Testgem
-  # Your code goes here...
+  def greeting
+    'hello!'
+  end
 end
