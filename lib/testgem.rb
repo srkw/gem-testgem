@@ -1,7 +1,9 @@
 require "testgem/version"
 
 module Testgem
-  def greeting
-    'hello!'
+  class << self
+    def greeting
+      'hoge!'
+    end
   end
 end
